@@ -1,0 +1,19 @@
+{% extends "homepage-base.html" %}
+
+{% block title %}
+{{ title }}
+{% endblock %}
+
+{% block header_bkg %}
+{% load staticfiles %}
+<img name="bkg" src="{% static "myhomepage/images/wukong.jpg" %}" alt="background" style="background-color: #CC9900" />
+{% endblock %}
+
+{% block  header_text %}
+{{ motto }}
+{% endblock %}
+
+{% block  main_body %}
+{% include "personal-info.html" %}
+{% include "personal-desc.html" %}
+{% endblock %}
