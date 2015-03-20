@@ -1,4 +1,8 @@
 <div id="personal-info">
+<div id="avatar-block">
+{% load staticfiles %}
+<img name="avatar" src="{% static "myhomepage\images\wukong.png" %}" />
+</div>
   {% for key in items %}
   <div id="{{ key }}">{{ items.key }}</div>
   {% endfor %}
