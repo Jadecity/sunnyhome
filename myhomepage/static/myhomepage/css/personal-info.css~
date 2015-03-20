@@ -1,0 +1,7 @@
+#avatar-block {
+    position: absolute;
+    width: 100px;
+    height: 150px;
+    top: -100px;
+    left: 40px;
+}

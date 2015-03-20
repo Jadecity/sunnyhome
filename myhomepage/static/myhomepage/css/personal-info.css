@@ -1,0 +1,16 @@
+#personal-info {
+    height: 200px;
+    padding: 15px;
+}
+#avatar-block {
+    position: absolute;
+    width: 100px;
+    height: 150px;
+    top: -100px;
+    left: 40px;
+}
+
+#avatar-block img {
+    width: 100px;
+    height: 150px;
+}
