@@ -1,5 +1,6 @@
 html,body {
     height: 100%;
+    margin: 0;
 }
 
 #body-content {
@@ -19,7 +20,10 @@ html,body {
     font-size: 40px;
 }
 #main-body {
-    position: relative;
-    width: 800px;
-    margin: auto;
+    position: absolute;
+    top: 200px;
+    left: 25%;
+    right: 25%;
+    bottom: 10px;
+    background-color: gray;
 }
